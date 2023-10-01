@@ -1,17 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { useEffect, useState } from 'react';
+import Countries from './components/Countries/Countries';
+import Country from './components/Country/Country';
 
 function App() {
   return (
     <div className="App">
-      <LoadCountries></LoadCountries>
-      
+      <Countries></Countries>
+      <Country></Country>
+  
     </div>
   );
 }
 
-function LoadCountries(){
+/* function LoadCountries(){
   const [countries,setCountries]=useState([]);
   useEffect(()=>{
     const url='https://restcountries.com/v3.1/all';
@@ -39,5 +41,5 @@ function Country(props){
     </div>
   )
 }
-
+ */
 export default App;
