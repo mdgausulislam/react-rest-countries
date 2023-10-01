@@ -23,10 +23,7 @@ const Countries = () => {
                     ></Country>)
             }
             </div>
-           
-
         </div>
     );
 };
-
 export default Countries;
